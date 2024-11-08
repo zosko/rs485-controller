@@ -1,0 +1,168 @@
+(footprint "MAX485-TTL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "MAX485 module"
+		(at 4 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a2bf7301-4d6b-4723-a7ad-4afc8aa34806")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MAX485-TTL"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c78d87eb-ae14-4420-ad3b-7c6d0871de06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7c74c73-f22b-4764-962b-6da3b9a4b89d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18b25cb6-cb26-44c7-9fa9-7fe6a4638696")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "757abb0a-11d3-4e0d-a12e-4caeae9606e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -18 -13)
+		(end 27 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ff0d082f-9953-4e13-b775-f2e44dc7aae9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0bd5119-d04b-44d1-b982-e99a92f22729")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 25.5 -9.4)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "887814f7-e4ae-4017-a97d-4d9b7c355536")
+	)
+	(pad "2" thru_hole oval
+		(at 25.5 -6.86)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "56101b61-ed77-486c-bf42-839bda754eb2")
+	)
+	(pad "3" thru_hole oval
+		(at 25.5 -4.32)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16b27898-1cb5-4319-8a0c-17d2bb8c8b01")
+	)
+	(pad "4" thru_hole oval
+		(at 25.5 -1.78)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b1b92c7-4870-4f30-a771-ca6946c3222f")
+	)
+	(pad "5" thru_hole rect
+		(at -16.27 -9.11)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd2a4665-e42d-40fe-8c53-b528630762b0")
+	)
+	(pad "6" thru_hole oval
+		(at -16.27 -1.49)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9efe0df-9e6f-4d47-8857-e0c43da96dce")
+	)
+	(pad "7" thru_hole oval
+		(at -16.27 -6.57)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1625e00-16fd-4aab-9266-048cbae6d06a")
+	)
+	(pad "8" thru_hole oval
+		(at -16.27 -4.03)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e612fc2-b57d-486a-8a62-27e79642cf59")
+	)
+	(model "${KIPRJMOD}/library/rs485.stp"
+		(offset
+			(xyz -17.5 -1.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
